@@ -14,7 +14,7 @@ Copyright: None
 License: CC0-1.0
 
 # debian & arch & rpm
-Files: debian/*  archlinux/* rpm/*
+Files: debian/*  arch/* rpm/*
 Copyright: None
 License: CC0-1.0
 
