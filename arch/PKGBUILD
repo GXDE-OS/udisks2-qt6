@@ -1,5 +1,5 @@
 # Maintainer: CharOfString <root@charofstring.cc>
-pkgname=udisks2-qt6-git
+pkgname=gxde-udisks2-qt6
 pkgver=6.0.1
 pkgrel=1
 pkgdesc='UDisks2 D-Bus interface bindings for Qt6 (GXDE)'
@@ -8,8 +8,9 @@ url="https://github.com/GXDE-OS/udisks2-qt6"
 license=('GPL-3.0-or-later')
 depends=('qt6-base' 'udisks2' 'libgcc' 'libstdc++' 'glibc')
 makedepends=('git' 'cmake' 'ninja')
-provides=("udisks2-qt6=$pkgver")
-conflicts=('udisks2-qt6')
+provides=("udisks2-qt6=$pkgver" "udisks2-qt6-git=$pkgver")
+conflicts=('udisks2-qt6' 'udisks2-qt6-git')
+replaces=('udisks2-qt6-git')
 source=()
 sha512sums=()
 
